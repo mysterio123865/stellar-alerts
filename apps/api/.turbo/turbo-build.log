@@ -1,0 +1,29 @@
+
+> api@1.0.0 build
+> tsc
+
+src/modules/exports/exports.service.ts(120,33): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(131,30): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(142,30): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(152,14): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(158,14): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(161,26): error TS7006: Parameter 'job' implicitly has an 'any' type.
+src/modules/exports/exports.service.ts(214,30): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(252,34): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(262,32): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(279,20): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(288,20): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(312,20): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(353,22): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(439,38): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(450,38): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/exports/exports.service.ts(460,32): error TS2339: Property 'exportJob' does not exist on type 'PrismaClient'.
+src/modules/graphql/graphql.routes.ts(1,30): error TS2307: Cannot find module '@apollo/server' or its corresponding type declarations.
+src/modules/graphql/graphql.routes.ts(2,64): error TS2307: Cannot find module '@as-integrations/fastify' or its corresponding type declarations.
+npm error Lifecycle script `build` failed with error:
+npm error code 2
+npm error path C:\Users\BETHEL\Desktop\mysterio\stellar-alerts\apps\api
+npm error workspace api@1.0.0
+npm error location C:\Users\BETHEL\Desktop\mysterio\stellar-alerts\apps\api
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c tsc

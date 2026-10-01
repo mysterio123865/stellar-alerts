@@ -9,7 +9,7 @@
  *  4. Reset helpers restore counter state.
  */
 import { describe, it, expect, beforeEach } from 'vitest';
-import { Decimal } from '@prisma/client/runtime/library';
+import { Decimal } from '../../generated/prisma/runtime/library';
 
 import {
   makeUser,

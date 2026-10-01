@@ -8,7 +8,7 @@
  *   vi.mocked(prisma.payment.create).mockResolvedValue(makePayment({ asset: 'USDC' }));
  */
 
-import { Decimal } from '@prisma/client/runtime/library';
+import { Decimal } from '../../generated/prisma/runtime/library';
 
 /** Minimal shape of a Prisma Payment row as returned by the client. */
 export interface PaymentRecord {
